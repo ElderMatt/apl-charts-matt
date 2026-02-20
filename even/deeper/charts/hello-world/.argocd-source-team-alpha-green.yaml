@@ -1,0 +1,8 @@
+helm:
+  parameters:
+  - name: image.repository
+    value: harbor.lke487006.akamai-apl.net/team-alpha/green
+    forcestring: true
+  - name: image.tag
+    value: main@sha256:1a5c8febea538124ddb88c5f3f92ed73fdc9ef3d2df1eee0fbbfdf8b2086acdb
+    forcestring: true
